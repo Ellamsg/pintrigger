@@ -31,7 +31,7 @@ export function App() {
     // Set initial grayscale for all images
     imagesRef.current.forEach(img => {
       gsap.set(img, {
-        filter: 'grayscale(100%) brightness(0%)',
+        filter: 'grayscale(100%) brightness(30%)',
       });
     });
   
@@ -83,7 +83,7 @@ export function App() {
           opacity: 1,
           y: "-170px",
           rotateZ: 0,
-          filter: 'grayscale(100%) brightness(0%)',
+          filter: 'grayscale(400%) brightness(20%)',
           duration: 2,
           ease: "power1.out",
         }
